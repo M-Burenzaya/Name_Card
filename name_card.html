@@ -7,12 +7,26 @@
     </head>
     <body>
         <div class="container">
-            <ul class="card">
-                <li class="name">Makhbal BURENZAYA</li>
-                <li class="job-title">Engineering student</li>
-                <li class="contact">Contact: bvrnee1009@gmail.com</li>
-                <li class="phone">Phone: (976) 8545 9612</li>
-            </ul>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name"><br><br>
+                
+                <label for="major">Major:</label>
+                <select id="major">
+                    <option value="web-developer">Engineering student</option>
+                    <option value="designer">Computer Sciences student</option>
+                    <option value="marketing">Psychology student</option>
+                    <option value="other">Health Professions student</option>
+                </select><br><br>
+
+                <label for="contact">Contact:</label>
+                <input type="text" id="contact"><br><br>
+                
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone"><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </body>
 </html>
