@@ -7,23 +7,23 @@
     </head>
     <body>
         <div class="container">
-            <form action="https://csii203-at-num-2023autumn-w1.azurewebsites.net/api/endpoint1?code=0SU6dqRROd2ob5QkEyF_uLTQXibfoiqEjfcg01rpZINFAzFuSVuOtA==">
+            <form action="https://csii203-at-num-2023autumn-w1.azurewebsites.net/api/endpoint1?code=0SU6dqRROd2ob5QkEyF_uLTQXibfoiqEjfcg01rpZINFAzFuSVuOtA==" method="get">
                 <label for="name">Name:</label>
-                <input type="text" id="name" placeholder="Овог Нэр"><br><br>
+                <input type="text" id="name" name="name" placeholder="Овог Нэр"><br><br>
                 
                 <label for="major">Major:</label>
-                <select id="major">
-                    <option value="web-developer">Engineering student</option>
-                    <option value="designer">Computer Sciences student</option>
-                    <option value="marketing">Psychology student</option>
-                    <option value="other">Health Professions student</option>
+                <select id="major" name="major">
+                    <option value="Engineering student">Engineering student</option>
+                    <option value="Computer Sciences student">Computer Sciences student</option>
+                    <option value="Psychology student">Psychology student</option>
+                    <option value="Health Professions student">Health Professions student</option>
                 </select><br><br>
 
                 <label for="contact">Contact:</label>
-                <input type="text" id="contact" placeholder="Е-майл"><br><br>
+                <input type="text" id="contact"  name="contact" placeholder="Е-майл"><br><br>
                 
                 <label for="phone">Phone:</label>
-                <input type="text" id="phone" placeholder="Утасны дугаар"><br><br>
+                <input type="text" id="phone" name="phone" placeholder="Утасны дугаар"><br><br>
 
                 <input type="submit" value="Submit">
             </form>
